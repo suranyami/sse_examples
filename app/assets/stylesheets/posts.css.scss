@@ -1,0 +1,16 @@
+ul {
+  li.post.well {
+    padding: 0.5em;
+    margin: 0.5em;
+    line-height: 130%;
+
+    .title {
+      font-size: 12pt;
+      font-weight: bold;
+    }
+
+    .content {
+      font-size: 9pt;
+    }
+  }
+}

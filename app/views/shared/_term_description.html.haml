@@ -1,0 +1,4 @@
+- unless description.blank? && empty_display.blank?
+  .term_description
+    %dt= term
+    %dd= description.blank? ? empty_display.html_safe : description

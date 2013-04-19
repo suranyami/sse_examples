@@ -1,0 +1,4 @@
+.form-actions
+  = f.submit nil, :class => 'btn btn-primary'
+  &nbsp;
+  = link_to t('.cancel', :default => t("helpers.links.cancel")), return_path, :class => 'btn'

@@ -1,0 +1,11 @@
+%h1 Posts
+
+%ul.nav.nav-list
+  - @posts.each do |post|
+    %li.post.well
+      .title= post.title
+      .content= post.content
+
+
+.time
+
